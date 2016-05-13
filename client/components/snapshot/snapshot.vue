@@ -1,7 +1,15 @@
 <template>
-    <div class="user">
-        <img v-for="item in userList" src="{{item.avatar}}"/>
-    </div>
+    <li class="snatshop">
+        <div class="user-imgs">
+            <img v-for="" src=""/>
+        </div>
+        <div class="contents">
+            <p class="usernames"></p>
+            <span class="time"></span>
+            <p class="word"></p>
+            <i class="new-message-count"></i>
+        </div>
+    </li>
 </template>
 <script>
     module.exports = {

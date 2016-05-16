@@ -1,5 +1,6 @@
 <template>
     <div class="main">
+        <div is="login-user"></div>
         <ul class="snatshop-list">
             <li is="snatshop"></li>
         </ul>

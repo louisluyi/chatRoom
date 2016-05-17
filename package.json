@@ -1,5 +1,5 @@
 {
-  "name": "char-room",
+  "name": "chat-room",
   "version": "0.0.1",
   "description": "chat-room built by vue.js and socket.io",
   "main": "index.js",
@@ -14,6 +14,7 @@
   "author": "louis",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.13.4",
     "vue": "^1.0.21",
     "vue-loader": "^8.2.3",
     "webpack": "^1.13.0"
@@ -22,6 +23,7 @@
     "babel": "^6.5.2",
     "babel-core": "^6.7.7",
     "babel-loader": "^6.2.4",
+    "body-parser": "^1.15.1",
     "css-loader": "^0.23.1",
     "file-loader": "^0.8.5",
     "mime": "^1.3.4",

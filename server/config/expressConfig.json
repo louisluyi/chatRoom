@@ -1,0 +1,4 @@
+{
+    "port": 8086,
+    "viewsPath": "/server/views"
+}
